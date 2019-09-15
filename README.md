@@ -15,3 +15,10 @@ curl -X POST 'http://localhost:8080/transactions' -d 'from={FromAccountId}' -d '
 curl -X GET 'http://localhost:8080/transactions/{ID}
 curl -X GET 'http://localhost:8080/transactions/status
 ```
+---
+STEPS TO RUN
+---
+```
+mvn clean compile
+mvn exec:java
+```
