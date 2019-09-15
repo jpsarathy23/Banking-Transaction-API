@@ -16,7 +16,7 @@ curl -X GET 'http://localhost:8080/transactions/{ID}
 curl -X GET 'http://localhost:8080/transactions/status
 ```
 ---
-STEPS TO RUN
+Steps To Run
 ---
 ```
 mvn clean compile
